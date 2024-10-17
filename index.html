@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="controls">
+      <label for="visualStyle">Select Style: </label>
+      <select id="visualStyle">
+        <option value="bars">Bars</option>
+        <option value="circle">Circle</option>
+        <option value="wave">Wave</option>
+      </select>
+      <label for="audioInput">Input</label>
+      <input type="file" id="audioInput" accept="audio/*" />
+    </div>
+    <canvas id="visualizer"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
